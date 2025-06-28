@@ -1,0 +1,45 @@
+{
+  "name": "react-amp-email",
+  "version": "1.0.0",
+  "description": "A simple React library for writing AMP emails",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "vite",
+    "preview": "vite preview",
+    "render": "npx tsx render.ts",
+    "test-server": "node test-server.js"
+  },
+  "keywords": [
+    "react",
+    "amp",
+    "email"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.6",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "chokidar": "^4.0.3",
+    "express": "^5.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.0.0",
+    "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "@react-email/components": "^0.1.1",
+    "@react-email/render": "^1.1.3",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
